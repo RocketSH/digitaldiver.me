@@ -1,12 +1,29 @@
 import { GetStaticPaths, GetStaticProps } from "next";
+import Head from "next/head";
 import React from "react";
 import { pathSlugReader, postContentReader } from "../../lib/blog";
+import matter from "gray-matter";
+
+interface BlogPostMetadata {
+  date: string;
+  title: string;
+  description: string;
+}
 
 interface Props {
   content: string;
+  data: BlogPostMetadata;
 }
-const BlogPage = ({ content }: Props) => {
-  return <div>{content}</div>;
+const BlogPage = ({ content, data }: Props) => {
+  return (
+    <>
+      <Head>
+        <title>{data.title}</title>
+        <meta title="description" content={data.description} />
+      </Head>
+      <pre>{content}</pre>;
+    </>
+  );
 };
 
 export default BlogPage;
@@ -25,8 +42,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const content = postContentReader(context.params.slug as string);
+  const markdownWithMetadata = postContentReader(context.params.slug as string);
+  const parsedMarkdown = matter(markdownWithMetadata);
+  console.log(parsedMarkdown);
   return {
-    props: { content },
+    props: { content: parsedMarkdown.content, data: parsedMarkdown.data },
   };
 };
