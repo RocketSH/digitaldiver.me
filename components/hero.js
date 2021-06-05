@@ -9,7 +9,7 @@ function Hero() {
           <h1 className="subtitle">Hi there, I am</h1>
           <h1 className="title">Shannon Hu</h1>
           <h1 className="subtitle profession">
-            A Frontend Developer&amp; Freediving Lover
+            A Learner &amp; Freediving Lover
           </h1>
           <div />
         </div>
