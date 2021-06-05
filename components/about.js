@@ -1,0 +1,86 @@
+import React from "react";
+
+function About() {
+  return (
+    <div className="main-content">
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">About Me</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p>
+                I have worked at Footwear manufacturing development center
+                around 5 years in China and Vietnam. I was inspired after joined
+                internal SAP project then decided to learn more acknowlege about
+                digital transformation and modernation web development.
+              </p>
+              <br />
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>using</strong>
+                  </p>
+                  <p>
+                    <a href="https://bulma.io/">#Bulma</a>
+                  </p>
+                  <p>
+                    <a href="https://reactjs.org/">#React</a>
+                  </p>
+                  <p>
+                    <a href="https://www.nginx.com/">#NGINX</a>
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>learning</strong>
+                  </p>
+                  <p>
+                    <a href="https://nodejs.org/en//">#Node.js</a>
+                  </p>
+                  <p>
+                    <a href="https://www.postgresql.org/">#PostgreSQL</a>
+                  </p>
+                </div>
+              </div>
+
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>Email Me</strong>
+                  </p>
+                  <p class="subheading">shannon-hu@protonmail.com</p>
+                </div>
+                <div class="column">
+                  <p class="heading">
+                    <strong>GitHub</strong>
+                  </p>
+                  <p class="subheading">
+                    <a href="https://github.com/RocketSH">
+                      https://github.com/RocketSH
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="column is-6 right-image " data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="https://picsum.photos/id/366/600/375"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default About;
