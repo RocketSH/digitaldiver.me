@@ -1,4 +1,5 @@
 import React from "react";
+import HeroNav from "./hero-nav";
 
 function Hero() {
   return (
@@ -13,6 +14,7 @@ function Hero() {
           <div />
         </div>
       </div>
+      <HeroNav />
     </section>
   );
 }

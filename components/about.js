@@ -3,14 +3,14 @@ import React from "react";
 function About() {
   return (
     <div className="main-content">
-      <div class="section-light about-me" id="about-me">
-        <div class="container">
-          <div class="column is-12 about-me">
-            <h1 class="title has-text-centered section-title">About Me</h1>
+      <div className="section-light about-me" id="about-me">
+        <div className="container">
+          <div className="column is-12 about-me">
+            <h1 className="title has-text-centered section-title">About Me</h1>
           </div>
-          <div class="columns is-multiline">
+          <div className="columns is-multiline">
             <div
-              class="column is-6 has-vertically-aligned-content"
+              className="column is-6 has-vertically-aligned-content"
               data-aos="fade-right"
             >
               <p>
@@ -20,9 +20,9 @@ function About() {
                 digital transformation and modernation web development.
               </p>
               <br />
-              <div class="columns about-links">
-                <div class="column">
-                  <p class="heading">
+              <div className="columns about-links">
+                <div className="column">
+                  <p className="heading">
                     <strong>using</strong>
                   </p>
                   <p>
@@ -35,8 +35,8 @@ function About() {
                     <a href="https://www.nginx.com/">#NGINX</a>
                   </p>
                 </div>
-                <div class="column">
-                  <p class="heading">
+                <div className="column">
+                  <p className="heading">
                     <strong>learning</strong>
                   </p>
                   <p>
@@ -49,19 +49,19 @@ function About() {
               </div>
 
               <br />
-              <div class="is-divider"></div>
-              <div class="columns about-links">
-                <div class="column">
-                  <p class="heading">
+              <div className="is-divider"></div>
+              <div className="columns about-links">
+                <div className="column">
+                  <p className="heading">
                     <strong>Email Me</strong>
                   </p>
-                  <p class="subheading">shannon-hu@protonmail.com</p>
+                  <p className="subheading">shannon-hu@protonmail.com</p>
                 </div>
-                <div class="column">
-                  <p class="heading">
+                <div className="column">
+                  <p className="heading">
                     <strong>GitHub</strong>
                   </p>
-                  <p class="subheading">
+                  <p className="subheading">
                     <a href="https://github.com/RocketSH">
                       https://github.com/RocketSH
                     </a>
@@ -69,9 +69,9 @@ function About() {
                 </div>
               </div>
             </div>
-            <div class="column is-6 right-image " data-aos="fade-left">
+            <div className="column is-6 right-image " data-aos="fade-left">
               <img
-                class="is-rounded"
+                className="is-rounded"
                 src="https://picsum.photos/id/366/600/375"
                 alt=""
               />
