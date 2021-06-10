@@ -6,24 +6,25 @@ function About() {
       <div className="section-light about-me" id="about-me">
         <div className="container">
           <div className="column is-12 about-me">
-            <h1 className="title has-text-centered section-title">About Me</h1>
+            <h1 className="title has-text-centered about-me-title">About Me</h1>
           </div>
-          <div className="columns is-multiline">
-            <div
-              className="column is-6 has-vertically-aligned-content"
-              data-aos="fade-right"
-            >
-              <p>
-                I have worked at Footwear manufacturing development center
-                around 5 years in China and Vietnam. I was inspired after joined
-                internal SAP project then decided to learn more acknowlege about
-                digital transformation and modernation web development.
-              </p>
-              <br />
+          <div className="columns">
+            <div className="column is-6 has-vertically-aligned-content">
+              <div class="columns">
+                <div className="motto">
+                  <p>Where are you? Here.</p>
+                  <p>What time is it? Now.</p>
+                  <p>What are you? This moment.</p>
+                  <p className="motto__source">
+                    ― Dan Millman, Way of the Peaceful Warrior: A Book That
+                    Changes Lives
+                  </p>
+                </div>
+              </div>
               <div className="columns about-links">
                 <div className="column">
                   <p className="heading">
-                    <strong>using</strong>
+                    <strong>Using FrontEnd</strong>
                   </p>
                   <p>
                     <a href="https://bulma.io/">#Bulma</a>
@@ -32,24 +33,24 @@ function About() {
                     <a href="https://reactjs.org/">#React</a>
                   </p>
                   <p>
-                    <a href="https://www.nginx.com/">#NGINX</a>
+                    <a href="https://www.typescriptlang.org/">#TypeScript</a>
                   </p>
                 </div>
                 <div className="column">
                   <p className="heading">
-                    <strong>learning</strong>
+                    <strong>Using BackEnd</strong>
                   </p>
                   <p>
-                    <a href="https://nodejs.org/en//">#Node.js</a>
+                    <a href="https://www.nginx.com/">#NGINX</a>
+                  </p>
+                  <p>
+                    <a href="https://rubyonrails.org/">#Ruby on Rails</a>
                   </p>
                   <p>
                     <a href="https://www.postgresql.org/">#PostgreSQL</a>
                   </p>
                 </div>
               </div>
-
-              <br />
-              <div className="is-divider"></div>
               <div className="columns about-links">
                 <div className="column">
                   <p className="heading">

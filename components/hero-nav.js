@@ -10,9 +10,6 @@ const HeroFooter = () => (
           <Link href="/" className="nav-items">
             Home
           </Link>
-          <Link href="/about" className="nav-items">
-            About
-          </Link>
           <Link href="/blog" className="nav-items">
             Blog
           </Link>
