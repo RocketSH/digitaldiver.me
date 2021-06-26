@@ -13,6 +13,9 @@ const HeroFooter = () => (
           <Link href="/blog" className="nav-items">
             Blog
           </Link>
+          <Link href="/reading" className="nav-items">
+            Reading
+          </Link>
           <Link href="/resume" className="nav-items">
             Resume
           </Link>
