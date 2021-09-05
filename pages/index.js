@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <About />
-    <Link href="/blog/hello-world">Go to page 2</Link>
+    {/* <Link href="/blog/hello-world">Go to page 2</Link> */}
   </Layout>
 );
 

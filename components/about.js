@@ -10,7 +10,7 @@ function About() {
           </div>
           <div className="columns">
             <div className="column is-6 has-vertically-aligned-content">
-              <div class="columns">
+              <div className="columns">
                 <div className="motto">
                   <p>Where are you? Here.</p>
                   <p>What time is it? Now.</p>
@@ -24,7 +24,7 @@ function About() {
               <div className="columns about-links">
                 <div className="column">
                   <p className="heading">
-                    <strong>Using FrontEnd</strong>
+                    <strong>FrontEnd</strong>
                   </p>
                   <p>
                     <a href="https://bulma.io/">#Bulma</a>
@@ -32,13 +32,13 @@ function About() {
                   <p>
                     <a href="https://reactjs.org/">#React</a>
                   </p>
-                  <p>
+                  {/* <p>
                     <a href="https://www.typescriptlang.org/">#TypeScript</a>
-                  </p>
+                  </p> */}
                 </div>
                 <div className="column">
                   <p className="heading">
-                    <strong>Using BackEnd</strong>
+                    <strong>BackEnd</strong>
                   </p>
                   <p>
                     <a href="https://www.nginx.com/">#NGINX</a>
@@ -73,8 +73,9 @@ function About() {
             <div className="column is-6 right-image " data-aos="fade-left">
               <img
                 className="is-rounded"
-                src="https://picsum.photos/id/366/600/375"
-                alt=""
+                src="me.jpg"
+                width="600"
+                height="375"
               />
             </div>
           </div>
