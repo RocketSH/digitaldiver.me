@@ -13,8 +13,8 @@ const HeroFooter = () => (
           <Link href="/blog" className="nav-items">
             Blog
           </Link>
-          <Link href="/reading" className="nav-items">
-            Reading
+          <Link href="/contact" className="nav-items">
+            Contact
           </Link>
           <Link href="/resume" className="nav-items">
             Resume

@@ -32,16 +32,10 @@ function About() {
                   <p>
                     <a href="https://reactjs.org/">#React</a>
                   </p>
-                  {/* <p>
-                    <a href="https://www.typescriptlang.org/">#TypeScript</a>
-                  </p> */}
                 </div>
                 <div className="column">
                   <p className="heading">
                     <strong>BackEnd</strong>
-                  </p>
-                  <p>
-                    <a href="https://www.nginx.com/">#NGINX</a>
                   </p>
                   <p>
                     <a href="https://rubyonrails.org/">#Ruby on Rails</a>
@@ -56,7 +50,7 @@ function About() {
                   <p className="heading">
                     <strong>Email Me</strong>
                   </p>
-                  <p className="subheading">shannon-hu@protonmail.com</p>
+                  <p className="subheading">digital-diver@protonmail.com</p>
                 </div>
                 <div className="column">
                   <p className="heading">

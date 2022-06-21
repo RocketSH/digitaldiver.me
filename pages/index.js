@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
+import { PostCard, Categories, PostWidget } from "../components/index";
 
 const posts = [
   {
@@ -15,12 +16,13 @@ const posts = [
 const IndexPage = () => (
   <Layout>
     <div>
-      {posts.map((post, index) => (
-        <div>
-          {post.title}
-          {post.excerpt}
-        </div>
+      {posts.map((post) => (
+        <PostCard post={post} key={post.title} />
       ))}
+    </div>
+    <div>
+      <PostWidget />
+      <Categories />
     </div>
   </Layout>
 );
